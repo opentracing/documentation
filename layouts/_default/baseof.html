@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    {{- block "title" . }}<title>{{ .Site.Title }}</title>{{- end }}
+  </head>
+  <body>
+    {{- block "main" . }}
+    {{- end }}
+  </body>
+</html>
